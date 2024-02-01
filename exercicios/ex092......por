@@ -1,20 +1,8 @@
 programa {
-
-	funcao vazio mensagem() {
-		escreva("\n--------------------------")
-		escreva("\nEXERCÍCIO")
-		escreva("\n--------------------------")
-	}
 	
-	funcao vazio inicio() {
-		inteiro n
-
-		mensagem()
-		escreva("\nDigite um número: ")
-		leia(n)
-		
-		escreva("O dobro de " + n, " é igual a ", n * 2)
-		mensagem()
+	funcao inicio()
+	{
+		escreva("Olá Mundo")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +10,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 54; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
