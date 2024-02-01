@@ -1,9 +1,9 @@
-programa {
+programa {
 inclua biblioteca Util --> u
 
 	funcao vazio Mensagem(cadeia frase) {
 		u.aguarde(300)
-		escreva(frase)
+		escreva(frase)
 		escreva("+----------==========----------+\n")
 	}
 
@@ -20,12 +20,10 @@ inclua biblioteca Util --> u
 			termo1 = termo2
 			termo2 = termo3
 			u.aguarde(500)
-		}
-		
-		
+		}	
 	}
 	
-	funcao inicio() {
+	funcao inicio() {
 		Mensagem("Programa iniciado...\n")
 
 		inteiro contagem_fibonacci
@@ -43,7 +41,7 @@ inclua biblioteca Util --> u
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 498; 
+ * @POSICAO-CURSOR = 503; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {contagem_do_fibonacci, 10, 32, 21}-{i, 12, 10, 1}-{termo1, 12, 13, 6}-{termo2, 12, 25, 6}-{termo3, 12, 37, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
